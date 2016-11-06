@@ -1,9 +1,9 @@
 //
 //  MSTabAnimator.swift
-//  RivikoSwift
+//
 //
 //  Created by Mohshin Shah on 06/11/2016.
-//  Copyright © 2016 Riviko. All rights reserved.
+//  Copyright © 2016 Mohshin Shah. All rights reserved.
 //
 
 import Foundation

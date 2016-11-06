@@ -1,0 +1,22 @@
+{
+  "name": "MSTabBarController",
+  "version": "0.1.0",
+  "summary": "A short description of MSTabBarController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MSTabBarController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohshin Shah": "mohshinshah@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MSTabBarController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSTabBarController/Classes/**/*"
+}

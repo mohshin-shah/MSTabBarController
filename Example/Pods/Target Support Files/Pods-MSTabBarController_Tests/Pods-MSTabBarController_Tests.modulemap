@@ -1,0 +1,6 @@
+framework module Pods_MSTabBarController_Tests {
+  umbrella header "Pods-MSTabBarController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,5 @@
 PODS:
-  - MSTabBarController (0.1.0)
+  - MSTabBarController (0.0.1)
 
 DEPENDENCIES:
   - MSTabBarController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MSTabBarController: 11ed32b775c3e254c4beba83596baa3de7c0ab7c
+  MSTabBarController: fc01cb5237683d595249b99d609695a50ac86024
 
 PODFILE CHECKSUM: 0cc408b8e2f0207af2da54508579ddc40084dc60
 

@@ -14,7 +14,7 @@ s.social_media_url = 'https://facebook.com/mohshin.19'
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'MSTabBarController/Classes/**/*'
+s.source_files = 'MSTabBarController/**/*'
 
 # s.resource_bundles = {
 #   'MSTabBarController' => ['MSTabBarController/Assets/*.png']

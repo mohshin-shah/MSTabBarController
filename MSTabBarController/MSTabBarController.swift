@@ -98,6 +98,8 @@ open class MSTabBarController: UITabBarController {
             
         case .ended,.cancelled:
             transition.finish()
+            isInteractive = false
+            return
             
         default: break
             

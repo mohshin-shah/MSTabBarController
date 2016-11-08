@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'MSTabBarController'
-s.version          = '0.0.1'
+s.version          = '0.0.2'
 s.summary          = 'Animating UITabBarController selection and enabling gesture based tab selection.'
 
 s.description      = 'UITabBarController animation using pan gesture.It also works using the tab selection.'

@@ -37,7 +37,7 @@ public protocol MSTabBarControllerDelegate: NSObjectProtocol {
  @brief Creates pretty animation while selecting or panning the view
  @superclass SuperClass: UITabBarController\n
  */
-public class MSTabBarController: UITabBarController {
+open class MSTabBarController: UITabBarController {
     
     ///MSTabBarControllerDelegate delegate
     public var ms_delegate: MSTabBarControllerDelegate?
@@ -54,7 +54,7 @@ public class MSTabBarController: UITabBarController {
     /// Pan gesture recognizer
     var panGestureRecognizer: UIPanGestureRecognizer?
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         
         super.viewDidLoad()
         self.setUp()
@@ -75,9 +75,6 @@ public class MSTabBarController: UITabBarController {
         
         //Translation
         let translation = sender.translation(in: sender.view)
-        
-        //Velocity
-        let velocity = sender.velocity(in: sender.view)
         
         //Ratio
         var ratio = translation.x / (sender.view?.bounds.width)!

@@ -48,7 +48,7 @@ open class MSTabBarController: UITabBarController {
     ///Pan gesture direction
     var panDirectionRight = false
     
-    /// Main Non Interactive transition instance (MSAnimator)
+    /// Main Non Interactive transition instance (MSTabAnimator)
     var transition = MSTabAnimator()
     
     /// Pan gesture recognizer
@@ -99,6 +99,10 @@ open class MSTabBarController: UITabBarController {
         case .ended,.cancelled:
             transition.finish()
             isInteractive = false
+            
+            //Callback to the delegate
+            ms_delegate?.didSelectedViewController(selectedViewController!)
+            
             return
             
         default: break
@@ -159,5 +163,11 @@ extension MSTabBarController : UITabBarControllerDelegate {
     public func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         
         return !transition.isAnimating
+    }
+    
+    public func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        
+        //Callback to the delegate
+        ms_delegate?.didSelectedViewController(viewController)
     }
 }

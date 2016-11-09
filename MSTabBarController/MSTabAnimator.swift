@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 ///Default animation duration
-let kAnimationDuration: TimeInterval = 0.3
+let kAnimationDuration: TimeInterval = 0.1
 
 public class MSTabAnimator: UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning {
     

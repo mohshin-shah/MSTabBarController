@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src="https://github.com/mohshin-shah/MSTabBarController/blob/master/1.gif" alt="" data-canonical-src="https://github.com/mohshin-shah/MSTabBarController/blob/master/1.gif" width="216" height="384" />
+
 ## Requirements
 
 ## Installation
